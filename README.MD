@@ -19,6 +19,10 @@ Command line options:
 * `--help` - Display help
 * `-V, --version` - Print version information
 
+## Resetting
+
+You can reset the state of the request by pressing **`r`** in your console at any time.
+
 ## Installation
 
 You don't need to install this, it's best to use the `npx` approach under [usage](#usage) above.
