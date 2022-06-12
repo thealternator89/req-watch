@@ -1,6 +1,6 @@
 {
   "name": "req-watch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Watch an API endpoint for changes",
   "main": "dist/index.js",
   "type": "module",
