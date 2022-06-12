@@ -9,15 +9,17 @@ This will display
 ## Usage
 
 ```bash
-$ npx req-watch -u <url to watch>
+$ npx req-watch <url> [options]
 ```
 
-Command line options:
-* `-u, --url <url to watch>` - The URL to watch for changes.
+Arguments:
+* `<url>` - The URL to make requests to and watch for changes.
+
+Options:
 * `-h, --header <key=value>` - Additional header(s) to send, like `Accept=application/json`. Repeat to add more headers.
 * `-s, --sleep-time <#>` - The time to sleep between requests (in seconds).
-* `--help` - Display help
-* `-V, --version` - Print version information
+* `--help` - Display help.
+* `-V, --version` - Print version information.
 
 ## Resetting
 
@@ -32,5 +34,5 @@ If you want to keep this locally, you can do the following
 ```bash
 $ npm i -g req-watch
 
-$ req-watch -u <url to watch>
+$ req-watch <url> [options]
 ```
